@@ -1,79 +1,66 @@
-# Simple Calculator using React
+# 🧮 Simple Calculator (React)
 
-Welcome to the Simple Calculator project! This project demonstrates a basic calculator built using React. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
+A basic **calculator** built using **React.js** that performs simple arithmetic operations with a clean and responsive UI.
 
-## Features
+![React](https://img.shields.io/badge/React-%2320232a.svg?&style=flat&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=flat&logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
 
-- Basic arithmetic operations: addition, subtraction, multiplication, and division.
-- Clear function to reset the calculator.
-- Responsive design for various screen sizes.
+<img src="https://github.com/DikshitaDas/simple-calculator-react/blob/main/screenshot/Screenshot%202024-10-19%20122227.png" width="270" height="400" >
 
-## Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## ℹ️ About
 
-### Prerequisites
+A **React**-based **Simple Calculator** that allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-- Node.js
-- npm (Node Package Manager)
+## 🚀 Features
 
-### Installation
+- ➕ **Addition**
+- ➖ **Subtraction**
+- ✖️ **Multiplication**
+- ➗ **Division**
+- 🧼 **Clear Screen** function
+- 💻 **Responsive Design** for both desktop and mobile users
 
-1. Clone the repository to your local machine:
+## 📦 Installation
 
-   ```bash
-   git clone https://github.com/DikshitaDas/simple-calculator-react.git
-   ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/DikshitaDas/simple-calculator-react.git
+cd simple-calculator-react
+```
 
-2. Navigate to the project directory:
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-   ```bash
-   cd simple-calculator-react
-   ```
+### 3. Run the Application
+```bash
+npm start
+```
 
-3. Install the necessary dependencies:
+Your calculator will be up and running on `http://localhost:3000`.
 
-   ```bash
-   npm install
-   ```
+## 🛠 Technologies Used
 
-### Running the Application
+| Technology  | Logo |
+|-------------|------|
+| **React.js** | ![React](https://img.shields.io/badge/React-%2320232a.svg?&style=flat&logo=react&logoColor=%2361DAFB) |
+| **JavaScript** | ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=flat&logo=javascript&logoColor=black) |
+| **CSS** | ![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?&style=flat&logo=css3&logoColor=white) |
 
-1. Start the development server:
+## 🤝 Contributing
 
-   ```bash
-   npm start
-   ```
+Contributions are always welcome! Feel free to:
 
-2. Open your browser and navigate to `http://localhost:3000` to view the application.
+1. Fork the repository 🍴
+2. Create your feature branch (`git checkout -b feature/amazing-feature`) 🚧
+3. Commit your changes (`git commit -m 'Add new feature'`) 📝
+4. Push to the branch (`git push origin feature/amazing-feature`) 📤
+5. Open a pull request 📬
 
-## Usage
+## 📄 License
 
-- Click on the number buttons to input values.
-- Use the operator buttons (`+`, `-`, `*`, `/`) to perform calculations.
-- Press the equals button (`=`) to see the result of your calculation.
-- Use the clear button (`C`) to reset the calculator.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details. 📃
 
-## Code Structure
-
-- **`index.html`**: The main HTML file that includes the root element for React.
-- **`style.css`**: The CSS file for styling the calculator.
-- **`script.js`**: The main JavaScript file containing the React components and logic.
-
-## Components
-
-### Calculator
-
-This component manages the state and handles user interactions. It includes functions to handle number and operator button clicks, perform calculations, and render the display.
-
-### CalcButton
-
-This component renders individual calculator buttons and handles button clicks.
-
-## Contributing
-
-Feel free to submit issues or pull requests. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
